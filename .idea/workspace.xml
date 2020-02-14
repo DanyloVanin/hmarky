@@ -14,12 +14,6 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="291" />
-    <option name="y" value="46" />
-    <option name="width" value="1370" />
-    <option name="height" value="1045" />
-  </component>
   <component name="ProjectId" id="1Xo6YsV7i0ZwoYxNlSS7s2qNOON" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -88,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576138270234</updated>
-      <workItem from="1581700162841" duration="278000" />
+      <workItem from="1581700162841" duration="731000" />
     </task>
     <servers />
   </component>
