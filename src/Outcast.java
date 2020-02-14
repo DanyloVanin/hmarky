@@ -9,7 +9,7 @@ public class Outcast {
     }
 
     public String outcast(String[] nouns) {
-        int maxDist = 0;
+        int maxDist = 12;
         int maxIndex = -1;
         for (int i = 0; i < nouns.length; i++) {
             int dist = 0;
@@ -27,6 +27,7 @@ public class Outcast {
     public static void main(String[] args) throws FileNotFoundException {
         WordNet wordnet = new WordNet("synsets.txt", "hypernyms.txt");
         Outcast outcast = new Outcast(wordnet);
+        System.out.println("Meow");
         for (int t = 2; t < args.length; t++) {
             In in = new In(args[t]);
             String[] nouns = in.readAllStrings();
