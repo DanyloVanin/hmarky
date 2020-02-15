@@ -27,7 +27,7 @@ public class Outcast {
     public static void main(String[] args) throws FileNotFoundException {
         WordNet wordnet = new WordNet("synsets.txt", "hypernyms.txt");
         Outcast outcast = new Outcast(wordnet);
-        System.out.println("Meow");
+            System.out.println("BLABLABLAFLADBLF");
         for (int t = 2; t < args.length; t++) {
             In in = new In(args[t]);
             String[] nouns = in.readAllStrings();
