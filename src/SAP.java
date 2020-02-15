@@ -9,29 +9,11 @@ public class SAP {
         this.G = new Digraph(G);
     }
 
-    // length of shortest ancestral path between v and w; -1 if no such path
-    public int length(int v, int w) {
-        if (v > G.V() - 1 || v < 0 || w > G.V() - 1 || w < 0) throw new IndexOutOfBoundsException();
-        return LA(v, w)[1];
-    }
-
-    // a common ancestor of v and w that participates in a shortest ancestral path; -1 if no such path
-    public int ancestor(int v, int w) {
-        if (v > G.V() - 1 || v < 0 || w > G.V() - 1 || w < 0) throw new IndexOutOfBoundsException();
-        return LA(v, w)[0];
-    }
-
-    // length of shortest ancestral path between any vertex in v and any vertex in w; -1 if no such path
-    public int length(Iterable<Integer> v, Iterable<Integer> w) {
-        if (v == null || w == null) throw new NullPointerException();
-        return LA(v, w)[1];
-    }
-
-    // a common ancestor that participates in shortest ancestral path; -1 if no such path
-    public int ancestor(Iterable<Integer> v, Iterable<Integer> w) {
-        if (v == null || w == null) throw new NullPointerException();
-        return LA(v, w)[0];
-    }
+  class d{
+        d(){
+            System.out.println("hi");
+        }
+  }
 
     private int[] LA(int v, int w) {
         int[] LA = new int[2];
