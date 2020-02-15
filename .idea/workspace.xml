@@ -32,6 +32,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -48,6 +49,8 @@
     <option name="width" value="1370" />
     <option name="height" value="1045" />
   </component>
+=======
+>>>>>>> b1c264288ac3090000a2c3eeafe1c8148ae548be
   <component name="ProjectId" id="1Xo6YsV7i0ZwoYxNlSS7s2qNOON" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -153,7 +156,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576138270234</updated>
-      <workItem from="1581700162841" duration="278000" />
+      <workItem from="1581700162841" duration="731000" />
     </task>
     <servers />
   </component>
