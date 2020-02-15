@@ -9,7 +9,7 @@ public class Outcast {
     }
     static class Cat{
         void meow(){
-            System.out.println("Gav");
+            System.out.println("Beep");
         }
     }
 
